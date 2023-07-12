@@ -31,14 +31,14 @@ Example fconfig.json:
 "delwrite": true
 }
 
-| Name         | Description  | Type    |
-|--------------|--------------|---------|
-| hostname | The FTP server hostname or IP address. | int, string |
-| port | The FTP server port | int     |
-| username | Your FTP server username | string  |
-| password | Your FTP server password | string  |
-| rootdir | The remote directory on the FTP server where files will be uploaded. | string  |
-| delwrite | A boolean value indicating whether to delete existing files in the remote directory before uploading. | boolean |
+| Name     | Description                                                                                           | Type        |
+|----------|-------------------------------------------------------------------------------------------------------|-------------|
+| hostname | The FTP server hostname or IP address.                                                                | int, string |
+| port     | The FTP server port                                                                                   | int         |
+| username | Your FTP server username                                                                              | string      |
+| password | Your FTP server password                                                                              | string      |
+| rootdir  | The remote directory on the FTP server where files will be uploaded.                                  | string      |
+| delwrite | A boolean value indicating whether to delete existing files in the remote directory before uploading. | boolean     |
 
 ## Usage
 
