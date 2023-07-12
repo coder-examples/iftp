@@ -1,0 +1,8 @@
+{
+  "hostname": "ftp.example.in",
+  "port": 21,
+  "username": "user",
+  "password": "password",
+  "rootdir": "/test",
+  "delwrite": true
+}
